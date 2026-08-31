@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = process.env.PORT || 3000;
-const BASE_DIR = __dirname;
+const BASE_DIR = path.join(__dirname, '..');
 
 // Read API Key from .env file or process.env
 let apiKey = process.env.OPENROUTER_API_KEY || '';
