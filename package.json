@@ -2,10 +2,9 @@
   "name": "dr-sushant-shekhar-portfolio",
   "version": "1.0.0",
   "description": "Professional Research & Portfolio Website for Dr. Sushant Shekhar (PhD) - National Centre of Geodesy, IIT Kanpur",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "start": "node server.js"
   },
   "keywords": [
     "space-geodesy",
