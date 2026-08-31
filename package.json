@@ -1,0 +1,20 @@
+{
+  "name": "dr-sushant-shekhar-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Research & Portfolio Website for Dr. Sushant Shekhar (PhD) - National Centre of Geodesy, IIT Kanpur",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js"
+  },
+  "keywords": [
+    "space-geodesy",
+    "navic",
+    "isro",
+    "remote-sensing",
+    "ai",
+    "iit-kanpur"
+  ],
+  "author": "Dr. Sushant Shekhar",
+  "license": "MIT"
+}
