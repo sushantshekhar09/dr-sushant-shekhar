@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Sushant Shekhar, PhD | Space Geodesy, Satellite Navigation (NavIC) & AI Researcher | IIT Kanpur</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Official research portfolio of Dr. Sushant Shekhar (PhD), Research Establishment Officer (REO - Level 11) at National Centre of Geodesy (NCG), IIT Kanpur. Specialist in Space Geodesy, NavIC GNSS-IR reflectometry, SAR/DInSAR remote sensing, and Machine Learning.">
+  <meta name="keywords" content="Sushant Shekhar, Dr Sushant Shekhar, IIT Kanpur, National Centre of Geodesy, Space Geodesy, NavIC, ISRO, GNSS Reflectometry, DInSAR, Satellite Laser Ranging, Machine Learning, Remote Sensing">
+  <meta name="author" content="Dr. Sushant Shekhar">
+  
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:title" content="Dr. Sushant Shekhar, PhD | Space Geodesy & AI Researcher">
+  <meta property="og:description" content="Research Establishment Officer at National Centre of Geodesy, IIT Kanpur. Specialist in Space Geodesy, NavIC GNSS-R, DInSAR, and AI. 45+ Peer-Reviewed Publications.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://www.linkedin.com/in/sushant-shekhar-10298854/">
+  <meta property="og:image" content="assets/avatar.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dr. Sushant Shekhar",
+    "jobTitle": "Research Establishment Officer (REO), Grade 1, Level 11",
+    "affiliation": {
+      "@type": "EducationalOrganization",
+      "name": "National Centre of Geodesy (NCG), Indian Institute of Technology (IIT) Kanpur"
+    },
+    "url": "https://www.linkedin.com/in/sushant-shekhar-10298854/",
+    "sameAs": [
+      "https://scholar.google.com/citations?view_op=list_works&hl=en&user=CSpUmgYAAAAJ",
+      "https://www.linkedin.com/in/sushant-shekhar-10298854/"
+    ],
+    "knowsAbout": [
+      "Space Geodesy",
+      "GNSS Reflectometry (NavIC-IR)",
+      "Satellite Laser Ranging (SLR)",
+      "Synthetic Aperture Radar (SAR & DInSAR)",
+      "Deep Learning & Artificial Intelligence",
+      "Microwave Remote Sensing"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Dynamic Orbital Canvas Background -->
+  <canvas id="space-canvas"></canvas>
+
+  <!-- ========================================================================
+       TOP NAVIGATION BAR
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Dr. Sushant Shekhar Home">
+        <div class="nav-logo-badge">SS</div>
+        <div class="nav-brand-text">
+          <h1>Dr. Sushant Shekhar</h1>
+          <span><span class="status-dot"></span> REO @ NCG, IIT Kanpur</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="nav-links-menu">
+          <li><a href="#hero" class="nav-link active">Overview</a></li>
+          <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#innovations" class="nav-link">Innovations</a></li>
+          <li><a href="#publications" class="nav-link">Publications</a></li>
+          <li><a href="#experience" class="nav-link">Journey</a></li>
+          <li><a href="#awards" class="nav-link">Awards</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#ai-twin" class="nav-link nav-ai-pill" onclick="openAITwin(); return false;">🤖 AI Twin</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Items (Cmd+K, Theme, Resume) -->
+      <div class="nav-actions">
+        <button class="cmd-k-btn" id="cmd-palette-btn" title="Quick Search (Ctrl + K)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <span>Search</span>
+          <kbd>Ctrl K</kbd>
+        </button>
+
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Color Theme" title="Toggle Theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </button>
+
+        <a href="assets/Resume_Dr_Sushant_Shekhar.pdf" download="Dr_Sushant_Shekhar_Resume.pdf" class="btn btn-primary btn-sm btn-glow" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          CV (PDF)
+        </a>
+
+        <button class="mobile-menu-btn" id="mobile-toggle-btn" aria-label="Toggle Mobile Navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       HERO SECTION
+       ======================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-group">
+            <span class="pill-badge iitk">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              IIT Kanpur (NCG)
+            </span>
+            <span class="pill-badge geodesy">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              Space Geodesy & GNSS-R
+            </span>
+            <span class="pill-badge pub">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              45+ Publications
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            Advancing Space Geodesy, Satellite Navigation & 
+            <span class="title-accent">AI-Powered Earth Observation</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            I am <strong>Dr. Sushant Shekhar (PhD)</strong>, Research Establishment Officer (REO - Level 11) at the <strong>National Centre of Geodesy, IIT Kanpur</strong>. My research specializes in microwave satellite reflectometry (NavIC-IR, GNSS-R), Satellite Laser Ranging (SLR), Synthetic Aperture Radar (DInSAR), and Machine Learning algorithms for high-precision geospatial science and geodetic reference networks.
+          </p>
+
+          <div class="hero-cta-group">
+            <button class="btn btn-primary btn-glow" onclick="openAITwin('Tell me about your background, current role at IIT Kanpur, and research focus')">
+              <span class="ai-sparkle">✨</span>
+              <span>Ask My AI Digital Twin</span>
+              <span class="live-pulse-badge">Live</span>
+            </button>
+            <a href="#publications" class="btn btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              Explore 45+ Publications
+            </a>
+            <a href="#innovations" class="btn btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              Innovations
+            </a>
+            <button class="btn btn-secondary" onclick="downloadVCard()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+              Save Contact
+            </button>
+          </div>
+
+          <div class="hero-social-links">
+            <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=CSpUmgYAAAAJ" target="_blank" rel="noopener noreferrer" class="social-icon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+              Google Scholar
+            </a>
+            <a href="https://www.linkedin.com/in/sushant-shekhar-10298854/" target="_blank" rel="noopener noreferrer" class="social-icon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              LinkedIn Profile
+            </a>
+            <a href="mailto:sushantshekhar09@gmail.com" class="social-icon-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              Email Directly
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Avatar Card & Floating Badges -->
+        <div class="hero-visual">
+          <div class="avatar-card-wrapper">
+            <div class="avatar-glow-ring"></div>
+            <div class="avatar-card">
+              <div class="avatar-img-container">
+                <img src="assets/avatar.jpg" alt="Dr. Sushant Shekhar, PhD - Research Establishment Officer at IIT Kanpur" class="avatar-img" id="user-profile-img" width="400" height="540" onerror="this.src='assets/avatar_full.jpg'">
+                <div class="avatar-img-overlay"></div>
+              </div>
+              <div class="avatar-card-footer-pill">
+                <span class="status-online-dot"></span>
+                <span class="avatar-footer-name">Dr. Sushant Shekhar, PhD</span>
+                <button class="avatar-chat-trigger" onclick="openAITwin('Tell me about your career journey and achievements')">
+                  💬 Talk to AI
+                </button>
+              </div>
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-stat-badge badge-top-right">
+              <div class="stat-icon-wrapper cyan">🛰️</div>
+              <div class="stat-text-meta">
+                <h5>NCG, IIT Kanpur</h5>
+                <p>Space Geodesy Lead</p>
+              </div>
+            </div>
+
+            <div class="floating-stat-badge badge-bottom-left">
+              <div class="stat-icon-wrapper gold">🏆</div>
+              <div class="stat-text-meta">
+                <h5>Innovator of Year</h5>
+                <p>UCOST Science Congress</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Strip -->
+      <div class="metrics-strip">
+        <div class="metric-item">
+          <span class="metric-number counter-val" data-target="45">0</span>
+          <span class="metric-label">Total Publications</span>
+          <span class="metric-sub">7 SCI Journals + 36+ Conferences</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-number gold counter-val" data-target="7">0</span>
+          <span class="metric-label">SCI-Indexed Journals</span>
+          <span class="metric-sub">Current Science, Adv. Space Res., IEEE</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-number emerald counter-val" data-target="36">0</span>
+          <span class="metric-label">IEEE & Scopus Papers</span>
+          <span class="metric-sub">InGARSS, IGARSS, ICACCM</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-number counter-val" data-target="6">0</span>
+          <span class="metric-label">Major Awards</span>
+          <span class="metric-sub">Young Scientist & Innovator Honors</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       RESEARCH PILLARS & AREAS OF EXPERTISE
+       ======================================================================== -->
+  <section class="section-padding" id="research">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Core Specializations</span>
+        <h2 class="section-title">Bridging <span class="gradient-text">Space Geodesy</span> and Artificial Intelligence</h2>
+        <p class="section-desc">Pioneering multi-disciplinary research in satellite remote sensing, sovereign geodetic infrastructure, and data-driven physical inversion models.</p>
+      </div>
+
+      <div class="pillars-grid">
+        <!-- Pillar 1: Space Geodesy & GNSS-R -->
+        <div class="pillar-card">
+          <div class="pillar-icon">🛰️</div>
+          <h3 class="pillar-title">Space Geodesy & GNSS Reflectometry</h3>
+          <p class="pillar-desc">Advanced signal processing for India's NavIC (IRNSS), GPS, DORIS, and Satellite Laser Ranging (SLR) infrastructure. Precision multipath phase extraction, local geoid modeling, and reference frame determination.</p>
+          <div class="pillar-tags">
+            <span class="tag-badge">#NavIC-IR</span>
+            <span class="tag-badge">#GNSS-R</span>
+            <span class="tag-badge">#SLR</span>
+            <span class="tag-badge">#Geodesy</span>
+            <span class="tag-badge">#DORIS</span>
+          </div>
+        </div>
+
+        <!-- Pillar 2: Radar Interferometry & Remote Sensing -->
+        <div class="pillar-card indigo">
+          <div class="pillar-icon">📡</div>
+          <h3 class="pillar-title">Radar Remote Sensing & DInSAR</h3>
+          <p class="pillar-desc">Multi-sensor Earth observation using Sentinel-1A, EOS-04 (RISAT-1A), UAVSAR, and CYGNSS. Long-term Himalayan crustal deformation, earthquake rupture slip analysis, and urban land subsidence monitoring.</p>
+          <div class="pillar-tags">
+            <span class="tag-badge">#DInSAR</span>
+            <span class="tag-badge">#EOS-04 SAR</span>
+            <span class="tag-badge">#Sentinel-1A</span>
+            <span class="tag-badge">#UAVSAR</span>
+            <span class="tag-badge">#Deformation</span>
+          </div>
+        </div>
+
+        <!-- Pillar 3: AI & Deep Learning for Geospatial Data -->
+        <div class="pillar-card emerald">
+          <div class="pillar-icon">🧠</div>
+          <h3 class="pillar-title">AI, Machine Learning & Analytics</h3>
+          <p class="pillar-desc">Deep neural networks, ensemble regressors, and wavelet decomposition applied to multi-source satellite datasets. Soil moisture estimation, disaster hazard zonation, and hydrological modeling.</p>
+          <div class="pillar-tags">
+            <span class="tag-badge">#DeepLearning</span>
+            <span class="tag-badge">#WaveletAnalysis</span>
+            <span class="tag-badge">#PyTorch</span>
+            <span class="tag-badge">#RandomForest</span>
+            <span class="tag-badge">#GeospatialML</span>
+          </div>
+        </div>
+
+        <!-- Pillar 4: Signal Processing & Embedded Systems -->
+        <div class="pillar-card gold">
+          <div class="pillar-icon">⚡</div>
+          <h3 class="pillar-title">Signal Processing & System Modeling</h3>
+          <p class="pillar-desc">Mathematical modeling of electromagnetic wave interaction with vegetation and bare soil. Statistical and heuristic power estimation models for FPGA wireless pipelines and IoT sensor telemetry.</p>
+          <div class="pillar-tags">
+            <span class="tag-badge">#MATLAB</span>
+            <span class="tag-badge">#SignalProcessing</span>
+            <span class="tag-badge">#FPGA</span>
+            <span class="tag-badge">#IoT</span>
+            <span class="tag-badge">#Python</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FLAGSHIP ISRO INNOVATION SPOTLIGHT
+       ======================================================================== -->
+  <section class="section-padding" id="innovations" style="padding-top: 0;">
+    <div class="container">
+      <div class="isro-spotlight-card">
+        <div class="isro-grid">
+          <div>
+            <span class="isro-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              Space Applications Centre (SAC) ISRO Integration
+            </span>
+            <h3 class="isro-title">NavIC Signal Preprocessing Software Engine</h3>
+            <p class="isro-desc">
+              Developed a specialized MATLAB software framework for high-precision preprocessing and spectral analysis of raw Navigation with Indian Constellation (NavIC) signals. The software extracts SNR interference patterns and computes multipath phase observables for field-scale soil moisture estimation and geodetic sensing, and has been directly adopted and utilized inside <strong>SAC ISRO</strong>.
+            </p>
+
+            <div class="isro-features">
+              <div class="isro-feat-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Automated L5 & S-Band SNR extraction & detrending</span>
+              </div>
+              <div class="isro-feat-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Continuous wavelet decomposition of multipath frequencies</span>
+              </div>
+              <div class="isro-feat-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Vegetation attenuation & phase shift correction models</span>
+              </div>
+              <div class="isro-feat-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Directly published in <em>Advances in Space Research</em> & <em>IEEE GRSL</em></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Code/Architecture Terminal Box -->
+          <div class="isro-visual-box">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="t-dot t-red"></span>
+                <span class="t-dot t-yellow"></span>
+                <span class="t-dot t-green"></span>
+              </div>
+              <span>navic_multipath_preprocessor.m</span>
+            </div>
+            <pre class="terminal-code"><code><span class="comment">% ISRO SAC NavIC-IR Preprocessing Engine</span>
+<span class="comment">% Dr. Sushant Shekhar et al.</span>
+<span class="fn">function</span> [sm_est, phase_corr] = <span class="fn">processNavICSignal</span>(snr_raw, elev_angle)
+  <span class="comment">% 1. Detrend direct signal component via low-order polyfit</span>
+  snr_detrended = <span class="fn">detrend_snr</span>(snr_raw, elev_angle, <span class="num">2</span>);
+
+  <span class="comment">% 2. Continuous Wavelet Transform (CWT) for peak multipath freq</span>
+  [cwt_coefs, freq] = <span class="fn">cwt</span>(snr_detrended, <span class="str">'morse'</span>, fs);
+  peak_freq = <span class="fn">extract_dominant_multipath_frequency</span>(cwt_coefs);
+
+  <span class="comment">% 3. Compute dielectric permittivity & vegetation phase shift</span>
+  phase_corr = <span class="fn">vegetation_phase_inversion</span>(peak_freq, elev_angle);
+  sm_est = <span class="fn">dielectric_to_volumetric_sm</span>(phase_corr);
+<span class="fn">end</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       INTERACTIVE PUBLICATIONS HUB
+       ======================================================================== -->
+  <section class="section-padding" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Scholarly Impact</span>
+        <h2 class="section-title">Peer-Reviewed <span class="gradient-text">Publications Hub</span></h2>
+        <p class="section-desc">Explore 45+ research papers across SCI-indexed journals and international IEEE/Scopus conferences. Filter by domain or search across citations.</p>
+      </div>
+
+      <!-- Search & Category Filters -->
+      <div class="pub-filter-controls">
+        <div class="pub-search-bar">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="pub-search-input" placeholder="Search by paper title, co-authors, keywords (e.g. NavIC, DInSAR, Soil Moisture, SLR, Machine Learning)..." aria-label="Search Publications">
+        </div>
+
+        <div class="pub-categories-bar" role="tablist">
+          <button class="cat-btn active" data-cat="all">All (45+)</button>
+          <button class="cat-btn" data-cat="sci-journal">SCI Journals (7)</button>
+          <button class="cat-btn" data-cat="conference">IEEE / Scopus Confs</button>
+          <button class="cat-btn" data-cat="gnss">NavIC & GNSS-R</button>
+          <button class="cat-btn" data-cat="sar-dinsar">SAR & DInSAR</button>
+          <button class="cat-btn" data-cat="geodesy">Space Geodesy & SLR</button>
+          <button class="cat-btn" data-cat="ml-ai">AI & Machine Learning</button>
+          <button class="cat-btn" data-cat="soil-moisture">Soil Moisture</button>
+          <button class="cat-btn" data-cat="disaster">Disaster & Geohazards</button>
+        </div>
+
+        <div class="pub-results-meta">
+          <span id="pub-count-display">Loading publications database...</span>
+          <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=CSpUmgYAAAAJ" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); font-weight: 500;">
+            View full citation index on Google Scholar →
+          </a>
+        </div>
+      </div>
+
+      <!-- Dynamic Publication List Container -->
+      <div class="publications-list" id="publications-list" aria-live="polite">
+        <!-- Rendered via script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       EXPERIENCE & CAREER JOURNEY TIMELINE
+       ======================================================================== -->
+  <section class="section-padding" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Career Trajectory</span>
+        <h2 class="section-title">Professional <span class="gradient-text">Journey & Appointments</span></h2>
+        <p class="section-desc">From prestigious national research fellowships to leading space geodetic engineering at IIT Kanpur.</p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- 1. IIT Kanpur -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">CURRENT APPOINTMENT</span>
+            <h3 class="timeline-role">Research Establishment Officer (REO), Grade 1, Level 11</h3>
+            <h4 class="timeline-org">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              National Centre of Geodesy (NCG), Indian Institute of Technology (IIT) Kanpur
+            </h4>
+            <div class="timeline-body">
+              <p>Leading research programs and technical execution in sovereign space geodesy, national geodetic network benchmarks, satellite laser ranging (SLR) infrastructure, multi-constellation GNSS analysis, and microwave remote sensing applications across India.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Embedded Technologies (Trainer) -->
+        <div class="timeline-item">
+          <div class="timeline-marker indigo"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">PROFESSIONAL TRAINING & MENTORSHIP</span>
+            <h3 class="timeline-role">Python, ML, NLP & Power BI Trainer</h3>
+            <h4 class="timeline-org">Embedded Technologies, Ghaziabad</h4>
+            <div class="timeline-body">
+              <p>Conducted advanced hands-on training modules for engineers and researchers in Python scientific computing, Natural Language Processing, Machine Learning models, and business intelligence reporting with Power BI.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Unmessenger -->
+        <div class="timeline-item">
+          <div class="timeline-marker indigo"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">INDUSTRY DATA SCIENCE</span>
+            <h3 class="timeline-role">Data Science Intern</h3>
+            <h4 class="timeline-org">Unmessenger</h4>
+            <div class="timeline-body">
+              <p>Implemented production data pipelines, predictive models, and customer analytics clustering.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. ISRO Senior Research Fellow -->
+        <div class="timeline-item">
+          <div class="timeline-marker gold"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">ISRO SPONSORED PROJECT (2 YEARS)</span>
+            <h3 class="timeline-role">Senior Research Fellow (SRF)</h3>
+            <h4 class="timeline-org">Graphic Era Deemed to be University</h4>
+            <div class="timeline-body">
+              <p>Principal investigator researcher on ISRO-sponsored project for NavIC reflectometry signal modeling. Developed dielectric inversion algorithms, conducted extensive agricultural ground-truth campaigns, and created the MATLAB software package deployed in SAC ISRO.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. ISRO Junior Research Fellow -->
+        <div class="timeline-item">
+          <div class="timeline-marker gold"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">ISRO SPONSORED PROJECT (1 YR 10 MOS)</span>
+            <h3 class="timeline-role">Junior Research Fellow (JRF)</h3>
+            <h4 class="timeline-org">Graphic Era Deemed to be University</h4>
+            <div class="timeline-body">
+              <p>Modeled multi-frequency NavIC SNR interferograms and designed field-scale experiments to prove feasibility of indigenous GNSS soil moisture estimation.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Assistant Professor -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">ACADEMIC FACULTY (2.5 YEARS)</span>
+            <h3 class="timeline-role">Assistant Professor</h3>
+            <h4 class="timeline-org">Tula’s Institute, Dehradun (Affiliated to Uttarakhand Technical University / AICTE)</h4>
+            <div class="timeline-body">
+              <p>Taught undergraduate and postgraduate engineering courses in Electronics, Signal Processing, and Embedded Systems. Guided senior capstone projects in IoT and telemetry.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Teaching Assistant -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">GRADUATE TEACHING</span>
+            <h3 class="timeline-role">Teaching Assistant & Embedded / VLSI Trainer</h3>
+            <h4 class="timeline-org">JIIT Noida & Embedded Technologies</h4>
+            <div class="timeline-body">
+              <p>Assisted in laboratory coursework and taught VLSI design, semiconductor devices, and digital microelectronics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       AWARDS, HONORS & DISTINCTIONS
+       ======================================================================== -->
+  <section class="section-padding" id="awards">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recognitions</span>
+        <h2 class="section-title">Awards & <span class="gradient-text">Honors</span></h2>
+        <p class="section-desc">Distinguished accolades for research innovations in space science and geospatial engineering.</p>
+      </div>
+
+      <div class="awards-grid">
+        <!-- Award 1: GATE 99.7 -->
+        <div class="award-card">
+          <div class="award-icon-box">🎯</div>
+          <div class="award-body">
+            <h4>GATE Qualified (99.7th Percentile)</h4>
+            <p class="award-org">Graduate Aptitude Test in Engineering, India</p>
+            <p class="award-desc">Achieved top 0.3% national ranking demonstrating exceptional technical rigor in Electronics & Communication fundamentals.</p>
+          </div>
+        </div>
+
+        <!-- Award 2: Innovator of the Year 2022 -->
+        <div class="award-card">
+          <div class="award-icon-box">💡</div>
+          <div class="award-body">
+            <h4>Innovator of the Year Award</h4>
+            <p class="award-org">16th Uttarakhand State Science & Technology Congress (2022) at UCOST Dehradun</p>
+            <p class="award-desc">Conferred for groundbreaking software engineering in NavIC microwave reflectometry and space-based agricultural remote sensing.</p>
+          </div>
+        </div>
+
+        <!-- Award 3: Best Paper Award ISRO 2021 -->
+        <div class="award-card">
+          <div class="award-icon-box">📜</div>
+          <div class="award-body">
+            <h4>Best Paper Award</h4>
+            <p class="award-org">National Seminar by IIRS (Indian Institute of Remote Sensing) & ISRO (2021)</p>
+            <p class="award-desc">Awarded for the most outstanding technical paper on satellite remote sensing and soil moisture inversion.</p>
+          </div>
+        </div>
+
+        <!-- Award 4: Young Scientist Award 2020 -->
+        <div class="award-card">
+          <div class="award-icon-box">🌟</div>
+          <div class="award-body">
+            <h4>Young Scientist Award</h4>
+            <p class="award-org">14th Uttarakhand State Science and Technology Congress (2020) at UCOST Dehradun</p>
+            <p class="award-desc">Honored for pioneering research contributions in satellite positioning and microwave multipath modeling.</p>
+          </div>
+        </div>
+
+        <!-- Award 5: Best Researcher Environmental Studies -->
+        <div class="award-card">
+          <div class="award-icon-box">🌱</div>
+          <div class="award-body">
+            <h4>Best Researcher Award for Environmental Studies</h4>
+            <p class="award-org">3rd World Conference on Innovations in Management Science and Engineering</p>
+            <p class="award-desc">Recognized for novel environmental monitoring frameworks utilizing spaceborne Earth observation datasets.</p>
+          </div>
+        </div>
+
+        <!-- Award 6: SAC ISRO Technology Adoption -->
+        <div class="award-card">
+          <div class="award-icon-box">🚀</div>
+          <div class="award-body">
+            <h4>SAC ISRO Technology Utilization</h4>
+            <p class="award-org">Space Applications Centre (SAC), ISRO</p>
+            <p class="award-desc">Official deployment and utilization of MATLAB NavIC signal preprocessing software inside national space facilities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       EDUCATION & ADVANCED CERTIFICATIONS
+       ======================================================================== -->
+  <section class="section-padding" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Foundation</span>
+        <h2 class="section-title">Education & <span class="gradient-text">Specialized Certifications</span></h2>
+        <p class="section-desc">Rigorous academic background and continuous advanced certifications in Artificial Intelligence and Space Science.</p>
+      </div>
+
+      <div class="edu-cert-grid">
+        <!-- Education Column -->
+        <div class="box-wrapper">
+          <h3 style="font-size: 1.4rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--accent-cyan);"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            Academic Degrees
+          </h3>
+
+          <!-- PhD -->
+          <div class="edu-card">
+            <h4 class="edu-degree">Doctor of Philosophy (PhD)</h4>
+            <p class="edu-inst">Graphic Era Deemed to be University</p>
+            <p class="edu-detail">Specialized in Space Geodesy, Satellite Remote Sensing, and NavIC Signal Processing in collaboration with ISRO projects.</p>
+          </div>
+
+          <!-- M.Tech -->
+          <div class="edu-card">
+            <h4 class="edu-degree">Master of Technology (M.Tech) — Microelectronics</h4>
+            <p class="edu-inst">Jaypee Institute of Information Technology (JIIT), Noida 62</p>
+            <p class="edu-detail">Advanced VLSI design, semiconductor devices, embedded systems, and statistical signal processing.</p>
+          </div>
+
+          <!-- B.Tech -->
+          <div class="edu-card">
+            <h4 class="edu-degree">Bachelor of Technology (B.Tech) — Electronics</h4>
+            <p class="edu-inst">Bharati Vidyapeeth College of Engineering, Pune</p>
+            <p class="edu-detail">Core electronics engineering, wireless communications, and digital signal processors.</p>
+          </div>
+
+          <!-- Schooling -->
+          <div class="edu-card">
+            <h4 class="edu-degree">Senior Secondary & Secondary (CBSE)</h4>
+            <p class="edu-inst">Holy Mission, Samastipur (12th) & Kendriya Vidyalaya, Barauni (10th)</p>
+            <p class="edu-detail">Affiliated to Central Board of Secondary Education (C.B.S.E).</p>
+          </div>
+        </div>
+
+        <!-- Certifications Column -->
+        <div class="box-wrapper">
+          <h3 style="font-size: 1.4rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--accent-gold);"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            Professional Certifications & ISRO Courses
+          </h3>
+
+          <!-- IIT Roorkee AI -->
+          <div class="cert-card">
+            <h4 class="cert-title">Artificial Intelligence & Deep Learning</h4>
+            <p class="cert-issuer">IIT Roorkee (6 Months Post Graduate Certification)</p>
+            <p class="edu-detail">Deep neural network architectures, computer vision, sequence models, and reinforcement learning.</p>
+          </div>
+
+          <!-- Dataisgood IBM Microsoft -->
+          <div class="cert-card">
+            <h4 class="cert-title">Data Science Professional Certification</h4>
+            <p class="cert-issuer">Dataisgood in association with IBM & Microsoft</p>
+            <p class="edu-detail">End-to-end data science pipelines, advanced machine learning, predictive analytics, and Python/SQL.</p>
+          </div>
+
+          <!-- IIRS ISRO RS & GIS -->
+          <div class="cert-card">
+            <h4 class="cert-title">Remote Sensing & GIS Technology for Govt Officials</h4>
+            <p class="cert-issuer">Indian Institute of Remote Sensing (IIRS), ISRO Dehradun</p>
+            <p class="edu-detail">Geospatial data integration, spatial analysis, and satellite data governance for government and university faculty.</p>
+          </div>
+
+          <!-- IIRS ISRO Basics of RS GIS GNSS -->
+          <div class="cert-card">
+            <h4 class="cert-title">Basics of RS, GIS & Global Navigation Satellite System</h4>
+            <p class="cert-issuer">Indian Institute of Remote Sensing (IIRS), ISRO Dehradun (3-Month Course)</p>
+            <p class="edu-detail">Comprehensive orbital mechanics, GPS/GLONASS/NavIC constellations, and spatial GIS database modeling.</p>
+          </div>
+
+          <!-- IIRS Planetary Geosciences -->
+          <div class="cert-card">
+            <h4 class="cert-title">Overview of Planetary Geosciences (Moon & Mars)</h4>
+            <p class="cert-issuer">Indian Institute of Remote Sensing (IIRS), ISRO Dehradun</p>
+            <p class="edu-detail">Planetary surface morphology, Chandrayaan & Mars Orbiter Mission remote sensing data interpretation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       INTERACTIVE CONTACT & COLLABORATION
+       ======================================================================== -->
+  <section class="section-padding" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Initiate <span class="gradient-text">Research Collaboration</span></h2>
+        <p class="section-desc">Open for academic partnerships, research discussions, industry consultancy, and keynote seminars in Space Geodesy & AI.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Panel -->
+        <div class="contact-info-panel">
+          <div class="contact-channel">
+            <div class="channel-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            </div>
+            <div class="channel-content">
+              <h5>Current Designation</h5>
+              <p>Research Establishment Officer (REO - Level 11)</p>
+              <p style="font-size: 0.88rem; color: var(--text-secondary);">National Centre of Geodesy (NCG), IIT Kanpur</p>
+            </div>
+          </div>
+
+          <div class="contact-channel">
+            <div class="channel-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div class="channel-content">
+              <h5>Official Email</h5>
+              <a href="mailto:sushantshekhar09@gmail.com">sushantshekhar09@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-channel">
+            <div class="channel-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div class="channel-content">
+              <h5>Direct Phone</h5>
+              <a href="tel:+918882866254">+91-8882866254</a>
+            </div>
+          </div>
+
+          <div class="contact-channel">
+            <div class="channel-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div class="channel-content">
+              <h5>Address & Location</h5>
+              <p>National Centre of Geodesy, IIT Kanpur, UP, India</p>
+              <p style="font-size: 0.85rem; color: var(--text-muted);">Permanent: New Professors Colony, Begusarai, Bihar-851117</p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 0.75rem; margin-top: 1rem; flex-wrap: wrap;">
+            <button class="btn btn-secondary btn-sm" onclick="downloadVCard()">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle></svg>
+              Download vCard (.vcf)
+            </button>
+            <a href="assets/Resume_Dr_Sushant_Shekhar.pdf" download target="_blank" class="btn btn-secondary btn-sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Download CV (PDF)
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form Panel -->
+        <div class="contact-form-panel">
+          <div id="contact-alert" style="display: none;"></div>
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-name">Full Name *</label>
+                <input type="text" id="form-name" placeholder="Prof. / Dr. / Name" required>
+              </div>
+              <div class="form-group">
+                <label for="form-email">Email Address *</label>
+                <input type="email" id="form-email" placeholder="colleague@institution.edu" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-subject">Subject / Inquiry Type</label>
+              <input type="text" id="form-subject" placeholder="Research Collaboration / Seminar / Project Inquiry">
+            </div>
+
+            <div class="form-group">
+              <label for="form-message">Message *</label>
+              <textarea id="form-message" rows="5" placeholder="Please outline your research inquiry, proposed collaboration, or question..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-glow" style="width: 100%;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              Send Message to Dr. Sushant Shekhar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <p style="color: var(--text-primary); font-weight: 600;">Dr. Sushant Shekhar (PhD)</p>
+        <p style="font-size: 0.8rem;">Research Establishment Officer (REO - Level 11) | National Centre of Geodesy, IIT Kanpur</p>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=CSpUmgYAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a href="https://www.linkedin.com/in/sushant-shekhar-10298854/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="assets/Resume_Dr_Sushant_Shekhar.pdf" target="_blank" rel="noopener">Resume PDF</a></li>
+        <li><a href="#hero">Back to Top ↑</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL: BIBTEX CITATION EXPORTER
+       ======================================================================== -->
+  <div class="modal-backdrop" id="bibtex-modal" role="dialog" aria-modal="true" aria-labelledby="bibtex-modal-title">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="bibtex-modal-title" style="font-size: 1.15rem; color: var(--text-primary);">BibTeX Citation Export</h3>
+        <button class="modal-close-btn modal-close-trigger" aria-label="Close Modal">✕</button>
+      </div>
+      <p id="bibtex-pub-title" style="font-size: 0.88rem; color: var(--accent-cyan); margin-bottom: 1rem;"></p>
+      
+      <pre class="bibtex-code-block"><code id="bibtex-code-content"></code></pre>
+
+      <div style="display: flex; justify-content: flex-end; gap: 0.75rem;">
+        <button class="btn btn-secondary btn-sm modal-close-trigger">Close</button>
+        <button class="btn btn-primary btn-sm" id="bibtex-copy-btn" onclick="copyBibtexCode()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          Copy BibTeX
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL: COMMAND PALETTE (Ctrl + K)
+       ======================================================================== -->
+  <div class="modal-backdrop" id="cmd-palette-modal" role="dialog" aria-modal="true">
+    <div class="modal-box cmd-palette-box">
+      <div class="cmd-input-wrapper">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--accent-cyan);"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="cmd-palette-input" placeholder="Type a section name, paper keyword, or command..." autocomplete="off">
+        <kbd style="background: rgba(255,255,255,0.08); padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono);">ESC</kbd>
+      </div>
+
+      <ul class="cmd-results-list" id="cmd-results-list">
+        <!-- Rendered dynamically -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       FLOATING AI DIGITAL TWIN LAUNCHER (FAB)
+       ======================================================================== -->
+  <div class="ai-twin-fab-container" id="ai-twin-fab-container">
+    <button class="ai-twin-fab" id="ai-twin-fab" onclick="toggleAITwin()" aria-label="Open AI Digital Twin Chat" title="Chat with Dr. Sushant Shekhar's AI Digital Twin">
+      <div class="fab-pulse-ring"></div>
+      <div class="fab-avatar-wrapper">
+        <img src="assets/avatar.jpg" alt="Dr. Sushant Shekhar AI" class="fab-avatar-img">
+        <span class="fab-status-dot"></span>
+      </div>
+      <div class="fab-label">
+        <span class="fab-title">Chat with AI Twin</span>
+        <span class="fab-subtitle">Online • Ask Career & Research ✦</span>
+      </div>
+      <div class="fab-sparkle-badge">AI</div>
+    </button>
+  </div>
+
+  <!-- ========================================================================
+       AI DIGITAL TWIN CHAT WINDOW / MODAL
+       ======================================================================== -->
+  <div class="ai-chat-backdrop" id="ai-twin-backdrop" onclick="handleAITwinBackdropClick(event)">
+    <div class="ai-chat-card" id="ai-twin-card" role="dialog" aria-labelledby="ai-chat-header-title">
+      <!-- Chat Header -->
+      <div class="ai-chat-header">
+        <div class="ai-header-left">
+          <div class="ai-header-avatar">
+            <img src="assets/avatar.jpg" alt="Dr. Sushant Shekhar Avatar">
+            <span class="ai-avatar-badge"></span>
+          </div>
+          <div>
+            <div class="ai-header-title-row">
+              <h3 id="ai-chat-header-title">Dr. Sushant Shekhar (PhD)</h3>
+              <span class="ai-pill-tag">Digital Twin</span>
+            </div>
+            <p class="ai-header-status">
+              <span class="status-dot"></span>
+              REO @ NCG, IIT Kanpur • <span id="ai-model-badge">Gemini Flash</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="ai-header-actions">
+          <button class="ai-action-btn" id="tts-toggle-btn" onclick="toggleTTS()" title="Toggle Voice / Audio Speech Output" aria-label="Toggle Voice Output">
+            <span id="tts-icon">🔈</span>
+            <span class="tts-label" id="tts-label-text">Voice Off</span>
+          </button>
+          <button class="ai-action-btn" onclick="clearAITwinChat()" title="Reset conversation" aria-label="Reset Conversation">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path></svg>
+          </button>
+          <button class="ai-action-btn ai-close-btn" onclick="closeAITwin()" title="Close chat (ESC)" aria-label="Close Chat">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Suggestion Chips Carousel / Bar -->
+      <div class="ai-chips-container" id="ai-chips-container">
+        <div class="chips-scroll">
+          <button class="ai-chip" onclick="sendPromptFromChip('Tell me about your PhD research and work with ISRO.')">🎓 PhD & ISRO NavIC</button>
+          <button class="ai-chip" onclick="sendPromptFromChip('What is your current role and responsibilities as REO at IIT Kanpur?')">🏛️ IIT Kanpur REO Role</button>
+          <button class="ai-chip" onclick="sendPromptFromChip('Can you summarize your 45+ peer-reviewed publications and SCI papers?')">📚 45+ Publications</button>
+          <button class="ai-chip" onclick="sendPromptFromChip('What awards and national honors have you received?')">🏆 Awards & GATE 99.7</button>
+          <button class="ai-chip" onclick="sendPromptFromChip('How does GNSS Reflectometry and NavIC signal preprocessing work?')">🛰️ NavIC-IR Tech</button>
+          <button class="ai-chip" onclick="sendPromptFromChip('How can we collaborate on research projects or invite you to speak?')">🤝 Collaborate / Connect</button>
+        </div>
+      </div>
+
+      <!-- Chat Messages Scroll Area -->
+      <div class="ai-chat-messages" id="ai-chat-messages" aria-live="polite">
+        <!-- Initial Assistant Message -->
+        <div class="chat-msg ai-msg">
+          <div class="msg-avatar">
+            <img src="assets/avatar.jpg" alt="Dr. Sushant Shekhar">
+          </div>
+          <div class="msg-bubble">
+            <div class="msg-sender-name">Dr. Sushant Shekhar (AI Twin)</div>
+            <div class="msg-content">
+              <p>👋 <strong>Welcome!</strong> I am the AI Digital Twin of <strong>Dr. Sushant Shekhar (PhD)</strong>, Research Establishment Officer (REO - Level 11) at the National Centre of Geodesy, IIT Kanpur.</p>
+              <p>Feel free to ask me anything regarding my <strong>academic career</strong>, <strong>ISRO NavIC project</strong>, <strong>45+ research publications</strong>, <strong>Space Geodesy & AI specializations</strong>, or opportunities for research collaboration.</p>
+            </div>
+            <div class="msg-timestamp" id="initial-msg-time">Just now</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Typing / Loading Indicator -->
+      <div class="ai-typing-indicator" id="ai-typing-indicator" style="display: none;">
+        <div class="typing-avatar">
+          <img src="assets/avatar.jpg" alt="Dr. Sushant">
+        </div>
+        <div class="typing-bubble">
+          <span class="typing-dot"></span>
+          <span class="typing-dot"></span>
+          <span class="typing-dot"></span>
+          <span class="typing-text">Synthesizing response...</span>
+        </div>
+      </div>
+
+      <!-- Chat Input Area -->
+      <div class="ai-chat-input-wrapper">
+        <form class="ai-chat-input-form" id="ai-chat-form" onsubmit="handleAIChatSubmit(event)">
+          <button type="button" class="ai-mic-btn" id="ai-voice-input-btn" onclick="toggleVoiceInput()" title="Voice Dictation (Microphone)" aria-label="Voice Dictation">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+          </button>
+          <textarea id="ai-user-input" class="ai-chat-textarea" placeholder="Ask about my career, research papers, IIT Kanpur, ISRO, skills..." rows="1" onkeydown="handleInputKeydown(event)"></textarea>
+          <button type="submit" class="ai-send-btn" id="ai-send-btn" aria-label="Send Message" title="Send (Enter)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          </button>
+        </form>
+        <div class="ai-input-footer">
+          <span>Dr. Sushant Shekhar Persona • IIT Kanpur</span>
+          <span>Press <strong>Enter ↵</strong> to send, <strong>Shift+Enter</strong> for newline</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data & Scripts -->
+  <script src="data/publications.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
